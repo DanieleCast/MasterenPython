@@ -14,3 +14,6 @@ print(carro1.getInfo())
 if type(carro1) == Coche:
     print("Es un objeto del tipo coche")
 else: print("No es un objeto del tipo coche")
+
+print(carro.soy_publico)
+print(carro.getPrivado())

@@ -6,6 +6,13 @@ class Coche:
     velocidad = 300
     caballaje = 200
     puestos = 4
+    #Publico
+    soy_publico = "Hola soy un atributo publico"
+    #Privado
+    __soy_privado = "Hola soy un atributo Privado"
+
+
+
 
     #Constructor
     def __init__(self,color,marca,modelo,velocidad,caballaje,puestos):
@@ -18,6 +25,9 @@ class Coche:
 
 
     #Métodos/Acciones Acciones que hace el objeto coche. (Funciones)
+    def getPrivado(self):
+        return self.__soy_privado
+
     def setMarca (self,marca):
         self.marca = marca
 
